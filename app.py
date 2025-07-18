@@ -7,7 +7,7 @@ from streamlit_folium import st_folium
 
 st.title("📍 Phone Number Location Tracker")
 
-number = st.text_input("+6285793451564")
+number = st.text_input("please giver your number: ")
 key = st.secrets["OPENCAGE_API_KEY"]
 
 if number:
